@@ -1,6 +1,6 @@
 <?php
 	// Edit this ->
-	define( 'SM_SERVER_ADDR', 'mp.burnzone.de' );
+	define( 'SM_SERVER_ADDR', 'localhost' );
 	define( 'SM_SERVER_PORT', 4242 );
 	define( 'SM_TIMEOUT', 1 );
 	// Edit this <-
@@ -87,7 +87,7 @@
 		<footer>
 			<p class="pull-right">Generated in <span class="badge badge-success"><?php echo Number_Format( ( MicroTime( true ) - $Timer ), 4, '.', '' ); ?>s</span></p>
 			
-			<p>Written by <a href="http://xpaw.ru" target="_blank">xPaw</a></p>
+			<p>Written by <a href="http://xpaw.me" target="_blank">xPaw</a></p>
 		</footer>
 	</div>
 </body>
